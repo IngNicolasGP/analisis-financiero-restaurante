@@ -1,0 +1,16 @@
+[
+  {
+    "hoja": "Febrero 2025",
+    "valor_original": "29/02/2025",
+    "problema": "Fecha inválida (2025 no es bisiesto)",
+    "correccion_aplicada": "2025-03-01",
+    "evidencia": "Mismo día de semana (Sábado) y ventas reales, mientras 2025-03-01 en la hoja de Marzo aparece en cero."
+  },
+  {
+    "hoja": "Febrero 2025",
+    "valor_original": "2025-03-01",
+    "problema": "Fila duplicada: día 1 del mes siguiente arrastrado por error en la hoja del mes anterior",
+    "correccion_aplicada": "Fila descartada (todos los valores en cero); se conservó la fila real en la hoja de Marzo",
+    "evidencia": "Fecha duplicada con una fila de valores reales en la hoja del mes correcto."
+  }
+]
